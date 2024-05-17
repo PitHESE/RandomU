@@ -486,6 +486,10 @@
   margin-top: 100px;
 }
 
+.container-4 {
+  margin-left: 100px;
+}
+
 @media screen and (max-width: 991px) {
   .heading {
     margin-right: 84px;
@@ -553,6 +557,16 @@
 
 #w-node-_221d4b20-bf4f-c2ba-bbb2-57b60483c22c-d5aadcb5 {
   grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#w-node-e2ec13cf-6c95-14b2-3345-af10b1750f9d-d5aadcb5 {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+#w-node-_1cba2b15-e5d2-c357-d330-8c19b610fcd0-d5aadcb5 {
+  grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
