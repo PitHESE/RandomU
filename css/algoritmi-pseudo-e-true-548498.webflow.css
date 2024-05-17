@@ -154,16 +154,16 @@
   max-width: 800px;
   margin-top: 200px;
   margin-bottom: 0;
-  margin-left: 100px;
+  margin-left: 30px;
   padding-left: 0;
   font-family: Inter, sans-serif;
-  font-size: 60px;
+  font-size: 90px;
   font-weight: 400;
   line-height: 60px;
 }
 
 .paragrafo {
-  float: right;
+  float: none;
   color: #fff;
   text-align: left;
   max-width: 550px;
