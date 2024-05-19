@@ -154,7 +154,7 @@
   max-width: 800px;
   margin-top: 200px;
   margin-bottom: 0;
-  margin-left: 100px;
+  margin-left: 0;
   padding-left: 0;
   font-family: Inter, sans-serif;
   font-size: 90px;
@@ -178,7 +178,7 @@
 .main-scene {
   opacity: 1;
   max-width: 1000px;
-  margin-bottom: 300px;
+  margin-bottom: 565px;
   margin-left: 100px;
   margin-right: 100px;
 }
@@ -192,10 +192,10 @@
 }
 
 .container-2 {
-  max-width: 80%;
+  max-width: 100%;
   margin-top: 0;
   margin-left: 100px;
-  margin-right: 0;
+  margin-right: 100px;
 }
 
 .paragrafo-2 {
@@ -244,7 +244,7 @@
 }
 
 .section-3-copy {
-  max-height: 1000px;
+  max-height: none;
   margin-top: 100px;
 }
 
@@ -260,7 +260,7 @@
 
 .sezione-int {
   color: #fff;
-  margin-top: 200px;
+  margin-top: 100px;
   margin-left: -25px;
   font-family: Inter, sans-serif;
   font-size: 30px;
@@ -279,7 +279,7 @@
 
 .sezione-int-2 {
   color: #fff;
-  margin-top: 240px;
+  margin-top: 150px;
   margin-left: -25px;
   font-family: Inter, sans-serif;
   font-size: 30px;
@@ -504,6 +504,110 @@
   margin-bottom: 130px;
 }
 
+.image-18 {
+  clear: none;
+  margin-left: 115px;
+}
+
+.button-3 {
+  float: right;
+}
+
+.button-4 {
+  float: none;
+  color: #000;
+  background-color: #fff;
+  border: 10px solid #fff;
+  border-radius: 40px;
+  margin-top: 0;
+  margin-left: 0;
+  padding-top: 10px;
+  font-size: 40px;
+  transition: opacity .2s;
+}
+
+.button-4:hover {
+  color: var(--white);
+  background-color: #555;
+  border-color: #555;
+}
+
+.section-6 {
+  height: 500px;
+}
+
+.container-5, .image-19 {
+  margin-top: 100px;
+}
+
+.footer {
+  background-color: #fff;
+  margin-top: 100px;
+}
+
+.sezione-footer {
+  color: #000;
+  margin-left: -25px;
+  font-family: Inter, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.paragraph-9-copy, .paragraph-9-copy-copy {
+  color: #fff;
+  text-align: left;
+  margin-left: 0;
+  margin-right: 0;
+  padding-right: 0;
+  font-family: Inter, sans-serif;
+}
+
+.paragrafo-footer {
+  float: right;
+  color: #000;
+  text-align: right;
+  max-width: 450px;
+  margin: 50px 0;
+  padding-right: 0;
+  font-family: Inter, sans-serif;
+}
+
+.button-5 {
+  color: #000;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.button-5:hover {
+  color: #fff;
+  background-color: #414141;
+}
+
+.button-6 {
+  color: #000;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.sezione-copy {
+  color: #fff;
+  margin-top: 130px;
+  margin-left: -25px;
+  font-family: Inter, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.div-block-3 {
+  height: 400px;
+}
+
+.container-6 {
+  max-width: none;
+  margin-left: 0;
+  margin-right: 100px;
+}
+
 @media screen and (max-width: 991px) {
   .heading {
     margin-right: 84px;
@@ -551,7 +655,7 @@
     padding-right: 64px;
   }
 
-  .paragraph-9 {
+  .paragraph-9, .paragraph-9-copy, .paragraph-9-copy-copy, .paragrafo-footer {
     margin-right: 0;
   }
 }
@@ -567,6 +671,51 @@
   .paragraph {
     padding-left: 22px;
   }
+}
+
+#w-node-_8cf34841-f2e3-a9a6-76c2-043e667191f1-d5aadcb5 {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+#w-node-_03770818-30cd-9a00-11e0-199bb58c108f-d5aadcb5 {
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+#w-node-_7ff0c67c-3cd4-4238-e0bb-f76dea89aeba-d5aadcb5, #w-node-_7ff0c67c-3cd4-4238-e0bb-f76dea89aec4-d5aadcb5 {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+#w-node-_7ff0c67c-3cd4-4238-e0bb-f76dea89aecc-d5aadcb5 {
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr;
+}
+
+#w-node-_7ff0c67c-3cd4-4238-e0bb-f76dea89aed9-d5aadcb5, #w-node-_7ff0c67c-3cd4-4238-e0bb-f76dea89aef4-d5aadcb5 {
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+#w-node-_7ff0c67c-3cd4-4238-e0bb-f76dea89af07-d5aadcb5 {
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#w-node-_7ff0c67c-3cd4-4238-e0bb-f76dea89af1a-d5aadcb5 {
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#w-node-_7ff0c67c-3cd4-4238-e0bb-f76dea89af2f-d5aadcb5 {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#w-node-_7ff0c67c-3cd4-4238-e0bb-f76dea89af3b-d5aadcb5, #w-node-_7ff0c67c-3cd4-4238-e0bb-f76dea89af48-d5aadcb5 {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
 }
 
 #w-node-_221d4b20-bf4f-c2ba-bbb2-57b60483c22c-d5aadcb5 {
@@ -594,7 +743,12 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-#w-node-ddacbafa-7126-6596-d83d-23821f779898-d5aadcb5, #w-node-_414c4a57-33f7-4e5a-c41d-273754f49433-d5aadcb5 {
+#w-node-ddacbafa-7126-6596-d83d-23821f779898-d5aadcb5 {
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+#w-node-_269fa228-da73-f03a-6445-433eea696856-d5aadcb5, #w-node-_414c4a57-33f7-4e5a-c41d-273754f49433-d5aadcb5 {
   grid-template-rows: auto auto auto;
   grid-template-columns: 1fr 1fr;
 }
@@ -606,46 +760,6 @@
 
 #w-node-_45399f8f-c18e-66d3-7c12-832ac4d18cc0-d5aadcb5 {
   grid-template-rows: auto auto;
-  grid-template-columns: 1fr 1fr;
-}
-
-#w-node-e6d7de03-4d52-ab17-7fec-f835ddb14271-324b8760, #w-node-a0706240-f9fb-f81e-4b1c-afb02a9af9c8-324b8760 {
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr;
-}
-
-#w-node-d649be14-9e70-8e04-0125-1b52dc612741-324b8760 {
-  grid-template-rows: auto auto auto;
-  grid-template-columns: 1fr;
-}
-
-#w-node-ae719970-6296-2ae0-0db8-0c056b0a1ece-324b8760 {
-  grid-template-rows: auto auto auto;
-  grid-template-columns: 1fr 1fr;
-}
-
-#w-node-c2cb1277-d8e7-bc7e-57be-272780d8f159-324b8760 {
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr 1fr;
-}
-
-#w-node-_96ddc46e-e3ce-87e5-d5c8-15ba861d860a-324b8760 {
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-#w-node-_72323ad4-868f-5fe0-6e57-b49803e32c15-324b8760 {
-  grid-template-rows: auto auto auto;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-#w-node-b66ed718-c6d4-26e9-01fb-b3bc6f4f31b0-324b8760 {
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-#w-node-_538cc712-6d20-0146-449c-7d850444d728-324b8760, #w-node-_72788ba8-7e3d-1663-369d-6d814f6d673b-324b8760 {
-  grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
 }
 
