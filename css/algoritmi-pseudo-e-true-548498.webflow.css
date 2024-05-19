@@ -154,7 +154,7 @@
   max-width: 800px;
   margin-top: 200px;
   margin-bottom: 0;
-  margin-left: 30px;
+  margin-left: 100px;
   padding-left: 0;
   font-family: Inter, sans-serif;
   font-size: 90px;
@@ -178,6 +178,7 @@
 .main-scene {
   opacity: 1;
   max-width: 1000px;
+  margin-bottom: 300px;
   margin-left: 100px;
   margin-right: 100px;
 }
@@ -490,6 +491,19 @@
   margin-left: 100px;
 }
 
+.quick-stack-7 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.quick-stack-8 {
+  margin-bottom: 100px;
+}
+
+.quick-stack-9 {
+  margin-bottom: 130px;
+}
+
 @media screen and (max-width: 991px) {
   .heading {
     margin-right: 84px;
@@ -570,12 +584,17 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-#w-node-ddacbafa-7126-6596-d83d-23821f779898-d5aadcb5 {
-  grid-template-rows: auto auto;
+#w-node-a7a40fa9-6c35-422c-65eb-703d19dc4c10-d5aadcb5 {
+  grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
 }
 
-#w-node-_414c4a57-33f7-4e5a-c41d-273754f49433-d5aadcb5 {
+#w-node-_875273ac-ec31-6430-4d1f-75b645c1c9d4-d5aadcb5 {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#w-node-ddacbafa-7126-6596-d83d-23821f779898-d5aadcb5, #w-node-_414c4a57-33f7-4e5a-c41d-273754f49433-d5aadcb5 {
   grid-template-rows: auto auto auto;
   grid-template-columns: 1fr 1fr;
 }
@@ -590,7 +609,7 @@
   grid-template-columns: 1fr 1fr;
 }
 
-#w-node-_4c69b541-1eb9-e94e-da94-c6ab5526d651-d5aadcb5, #w-node-e6d7de03-4d52-ab17-7fec-f835ddb14271-324b8760, #w-node-a0706240-f9fb-f81e-4b1c-afb02a9af9c8-324b8760 {
+#w-node-e6d7de03-4d52-ab17-7fec-f835ddb14271-324b8760, #w-node-a0706240-f9fb-f81e-4b1c-afb02a9af9c8-324b8760 {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
 }
@@ -600,8 +619,13 @@
   grid-template-columns: 1fr;
 }
 
-#w-node-c2cb1277-d8e7-bc7e-57be-272780d8f159-324b8760 {
+#w-node-ae719970-6296-2ae0-0db8-0c056b0a1ece-324b8760 {
   grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+#w-node-c2cb1277-d8e7-bc7e-57be-272780d8f159-324b8760 {
+  grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr;
 }
 
@@ -620,7 +644,9 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-#w-node-_72788ba8-7e3d-1663-369d-6d814f6d673b-324b8760 {
+#w-node-_538cc712-6d20-0146-449c-7d850444d728-324b8760, #w-node-_72788ba8-7e3d-1663-369d-6d814f6d673b-324b8760 {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
 }
+
+
